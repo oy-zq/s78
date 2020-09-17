@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--  声明com.HelloWorld交给spring框架来管理  -->
+<!--    定义  =>   初始化	=>	使用	=>	销毁              作用域： 默认单例  singleton在容器当中只会存在一个单例模式       prototype原型模式每次拿都会生成   -->
+    <bean class="com.HelloSpring" id="student" init-method="initMethod" destroy-method="destroy" scope="singleton"></bean>
+</beans>

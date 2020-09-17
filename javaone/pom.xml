@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>sunjob</groupId>
+    <artifactId>javaone</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>Spring</module>
+        <module>Spring0910</module>
+        <module>0910</module>
+        <module>Spring0910</module>
+        <module>Spring0911</module>
+        <module>Spring0914</module>
+        <module>Zhujei0915</module>
+        <module>Spring0916</module>
+    </modules>
+
+
+</project>

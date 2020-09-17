@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        <bean class="com.Spring0911" id="spr">
+<!--            通过构造方法注入值-->
+            <constructor-arg name="name" value="欧阳"></constructor-arg>
+            <constructor-arg name="stuno" value="15"></constructor-arg>
+<!--            通过getter和setter方法注入-->
+            <property name="age" value="18"></property>
+            <property name="remak" value="已成年"></property>
+<!--            通过 引用注入-->
+            <property name="infolist">
+                <list>
+                    <value>123</value>
+                    <value>456</value>
+                    <value>789</value>
+                </list>
+            </property>
+            <property name="infomap">
+                <map>
+                    <entry key="1001" value="欧阳"></entry>
+                    <entry key="1002" value="第三方的风格"></entry>
+                    <entry key="1003" value="阿达"></entry>
+                </map>
+            </property>
+        </bean>
+
+</beans>
